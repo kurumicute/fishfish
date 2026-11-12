@@ -1,0 +1,26 @@
+{
+  "ratio": { "novel": 62, "work": 10, "code": 24, "status": 4 },
+  "mode": "mixed",
+  "font_size": 3,
+  "theme": "claude",
+  "language": "en",
+  "ascii_glyphs": false,
+  "effort": "medium",
+  "footer_mode": "auto",
+  "show_progress": true,
+  "ambient": { "min_interval": 35, "max_interval": 90 },
+  "code": { "min_lines": 5, "max_lines": 40, "max_file_mb": 5 },
+  "novel": { "max_file_mb": 200, "auto_section_chars": 4000, "max_chapter_chars": 30000 },
+  "header": {
+    "title": "Claude Code",
+    "version": "v2.1.322",
+    "model": "Opus 5.5 · Claude Pro",
+    "cwd": ""
+  },
+  "placeholders": [
+    "Try \"fix lint errors\"",
+    "Try \"refactor <filepath>\"",
+    "Try \"how does <filepath> work?\"",
+    "Try \"write a test for <filepath>\""
+  ]
+}
